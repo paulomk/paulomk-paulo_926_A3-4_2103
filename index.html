@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="conversion.js"></script>
     <title>Document</title>
+    
 </head>
 <body>
-    <div>
-        <div>
+    <div id="general-container">
+        <div id="header-container">
             <h1>US Dollar to Canadian Dollar</h1>
             <h3>Convert USD to CAD at the real exchange rate</h3>
         </div>
         <div>
-            
+            <form>
+                <div class="flexible">
+                    <div class="container">
+                        <label for="amount">Amount (USD):</label><br>
+                        <input type="number" id="amount" name ="amount">
+                    </div>
+                    <p>↹</p>
+                    <div class="container">
+                        <label for="converted">Converted to (CAD):</label><br>
+                        <input type="number" id="converted" name ="converted">
+                    </div>
+                </div>
+                <input class="button" type="button" value="Calculate" onclick="calculate()">
+            </form>
         </div>
     </div>
 </body>

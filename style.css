@@ -1,1 +1,33 @@
 /*My Styles*/
+#general-container{
+    text-align: center;
+    padding: 0;
+}
+
+#header-container{
+    color:white;
+    border:solid;
+    background-color: #2a3bbf;
+}
+
+form{
+    padding-top: 1rem;
+}
+
+.flexible{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    text-align: center;
+}
+
+.button{
+    background-color: #2a3bbf;
+    color: white;
+    border-radius: 90%;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
